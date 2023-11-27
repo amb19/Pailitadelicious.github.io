@@ -1,0 +1,51 @@
+/* Propiedades para crear un unico componete con varias opciones o alternativas */
+/* Propiedades para reutilizar en muchos lugares */
+* {
+  /* para reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h2, #Tortas {
+  padding-top: 120px;
+  margin-top: -120px; }
+
+body {
+  min-height: 100vh;
+  position: relative; }
+
+main {
+  /* para el contenido  */
+  padding-bottom: 200px; }
+
+.contacto {
+  /* para el formulario */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.subtitulo {
+  text-align: center; }
+
+.carousel-item {
+  height: 65vh; }
+  .carousel-item img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%; }
+
+.bg-menu {
+  background-color: #6B1762; }
+
+.bg-crs {
+  background-color: #68a9af7a;
+  border-radius: 10px; }
+
+/* crear un grupo de propiedades, incluyen un parametro (variable)*/
